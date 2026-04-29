@@ -26,3 +26,4 @@ jobs:
           push: false
           tags: snakewhisper/docker-borgbackup:test
           platforms: linux/amd64,linux/arm64
+          context: .
